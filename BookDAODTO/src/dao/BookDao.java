@@ -16,7 +16,7 @@ public class BookDao
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/peje7?user=root&password=akshay");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/peje7?user=root&password=root");
 		} 
 		catch (ClassNotFoundException | SQLException e) 
 		{

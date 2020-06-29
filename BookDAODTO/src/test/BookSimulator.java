@@ -94,5 +94,7 @@ public class BookSimulator
 		{
 			System.out.println(b.getBookId()+"\t"+b.getBookName()+"\t"+b.getBookPrice()+"\t"+b.getBookAuthor()+"\t"+b.getBookQty());
 		}
+		sc1.close();
 	}
+
 }
