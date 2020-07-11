@@ -23,7 +23,7 @@ public class DeleteStudent1
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/peje7?user=root&password=akshay");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/peje7?user=root&password=root");
 
 			pstmt=con.prepareStatement(query);
 			pstmt.setInt(1, id);
